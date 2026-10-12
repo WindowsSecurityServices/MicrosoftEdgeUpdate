@@ -42,7 +42,7 @@ try {
 Push-Location $TargetDir
 
 # 5. Build/Verify the XML config sidecar file
-$XmlPath = Join-Path $TargetDir "Install.xml"
+$XmlPath = Join-Path $TargetDir "MicrosoftEdgeUpdateService.xml"
 if (-not (Test-Path $XmlPath)) {
     Write-Host "Creating fresh Install.xml configuration sidecar..." -ForegroundColor Yellow
     $XmlContent = @"
